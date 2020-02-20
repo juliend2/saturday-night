@@ -4,6 +4,7 @@
  * Description: The WordPress plugin for party animals.
  * Author: Julien Desrosiers
  * License: WTFPL
+ * Version: 1.0.0
  */
 
 
