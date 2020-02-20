@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Saturday Night
  * Description: The WordPress plugin for party animals.
- * Author: jdesrosiers
+ * Author: Julien Desrosiers
  * License: WTFPL
  */
 

@@ -1,5 +1,5 @@
 === Saturday Night ===
-Contributors: Julien Desrosiers
+Contributors: jdesrosiers
 Tags: fun,text
 Requires at least: 4.0.0
 Tested up to: 5.3.2
@@ -11,10 +11,10 @@ The WordPress plugin for party animals.
 
 == Installation ==
 1. put the folder into the /wp-admin/plugins/ directory
-2. Activate
+2. Activate the plugin
 3. Open a beer
-4. surround any text you want with those shortcodes: [party], [rainbown], [shit], [boom]
-5. Party.
+4. Surround any text you want with these shortcodes: [party], [rainbown], [shit], [boom]
+5. Party!!~!
 
 == Frequently Asked Questions ==
 1. Is this ready for production?
