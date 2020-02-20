@@ -64,3 +64,13 @@
     text-shadow: -1px -1px 0px var(--sn-party-outline), -1px 1px 0px var(--sn-party-outline), 1px -1px 0px var(--sn-party-outline), 1px 1px 0px var(--sn-party-outline);
     animation: sm_blinker 1s linear infinite;
 }
+
+/* Shit styles: */
+.sn-shit {
+    background: rgb(226, 192, 161);
+    color: rgb(49, 32, 10);
+}
+.sn-shit::before,
+.sn-shit::after {
+    content: '💩';
+}

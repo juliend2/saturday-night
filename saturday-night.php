@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Saturday Night
- * Description: A plugin for party animal blog authors.
- * Author: Julien Desrosiers
- * License: GPLv2
+ * Description: The WordPress plugin for party animals.
+ * Author: jdesrosiers
+ * License: WTFPL
  */
 
 
@@ -29,7 +29,13 @@ function sn_boom($atts, $content=null) {
 }
 add_shortcode( 'boom', 'sn_boom' );
 
+
 function sn_party($atts, $content=null) {
     return "<span class='sn-sc sn-party'><span class='sn-party-inner'>".$content."</span></span>";
 }
 add_shortcode( 'party', 'sn_party' );
+
+function sn_shit($atts, $content=null) {
+    return "<span class='sn-sc sn-shit'><span class='sn-shit-inner'>".$content."</span></span>";
+}
+add_shortcode( 'shit', 'sn_shit' );
