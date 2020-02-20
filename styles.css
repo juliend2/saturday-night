@@ -1,0 +1,66 @@
+.sn-sc {
+    display: inline;
+}
+
+@keyframes sm_fire {
+    0% {
+        color: rgb(12, 0, 0);
+    }
+    50% {
+        color: rgb(235, 0, 0);
+    }
+    100% {
+        color: rgb(255, 115, 0);
+    }
+}
+
+@keyframes sm_blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Rainbow styles: */
+.sn-rainbow {
+    background: white;
+}
+.sn-rainbow::before,
+.sn-rainbow::after {
+    content: '🌈'
+}
+.sn-rainbow-inner {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* Boom styles: */
+.sn-boom {
+    background: yellow;
+    color: red;
+    animation: sm_fire 1s linear infinite;
+}
+.sn-boom::before,
+.sn-boom::after {
+    content: '💥';
+}
+
+/* Party styles: */
+.sn-party {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+}
+.sn-party::before {
+    content: '🎉';
+}
+.sn-party::after {
+    content: '🍾';
+}
+.sn-party-inner {
+    --sn-party-outline: rgba(0, 0, 255, 1);
+    color: white;
+    text-shadow: -1px -1px 0px var(--sn-party-outline), -1px 1px 0px var(--sn-party-outline), 1px -1px 0px var(--sn-party-outline), 1px 1px 0px var(--sn-party-outline);
+    animation: sm_blinker 1s linear infinite;
+}
