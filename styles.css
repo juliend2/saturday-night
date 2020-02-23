@@ -1,8 +1,8 @@
-.sn-sc {
+.jdsn-sc {
     display: inline;
 }
 
-@keyframes sm_fire {
+@keyframes jdsn_fire {
     0% {
         color: rgb(12, 0, 0);
     }
@@ -14,21 +14,21 @@
     }
 }
 
-@keyframes sm_blinker {
+@keyframes jdsn_blinker {
     50% {
         opacity: 0;
     }
 }
 
 /* Rainbow styles: */
-.sn-rainbow {
+.jdsn-rainbow {
     background: white;
 }
-.sn-rainbow::before,
-.sn-rainbow::after {
+.jdsn-rainbow::before,
+.jdsn-rainbow::after {
     content: '🌈'
 }
-.sn-rainbow-inner {
+.jdsn-rainbow-inner {
     background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
     background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
     color:transparent;
@@ -37,40 +37,50 @@
 }
 
 /* Boom styles: */
-.sn-boom {
+.jdsn-boom {
     background: yellow;
     color: red;
-    animation: sm_fire 1s linear infinite;
+    animation: jdsn_fire 1s linear infinite;
 }
-.sn-boom::before,
-.sn-boom::after {
+.jdsn-boom::before,
+.jdsn-boom::after {
     content: '💥';
 }
 
 /* Party styles: */
-.sn-party {
+.jdsn-party {
     background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
     background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
 }
-.sn-party::before {
+.jdsn-party::before {
     content: '🎉';
 }
-.sn-party::after {
+.jdsn-party::after {
     content: '🍾';
 }
-.sn-party-inner {
-    --sn-party-outline: rgba(0, 0, 255, 1);
+.jdsn-party-inner {
+    --jdsn-party-outline: rgba(0, 0, 255, 1);
     color: white;
-    text-shadow: -1px -1px 0px var(--sn-party-outline), -1px 1px 0px var(--sn-party-outline), 1px -1px 0px var(--sn-party-outline), 1px 1px 0px var(--sn-party-outline);
-    animation: sm_blinker 1s linear infinite;
+    text-shadow: -1px -1px 0px var(--jdsn-party-outline), -1px 1px 0px var(--jdsn-party-outline), 1px -1px 0px var(--jdsn-party-outline), 1px 1px 0px var(--jdsn-party-outline);
+    animation: jdsn_blinker 1s linear infinite;
+}
+
+/* Fire styles: */
+.jdsn-fire {
+    color: red;
+    background: yellow;
+}
+.jdsn-fire::before,
+.jdsn-fire::after {
+    content: '🔥';
 }
 
 /* Shit styles: */
-.sn-shit {
+.jdsn-shit {
     background: rgb(226, 192, 161);
     color: rgb(49, 32, 10);
 }
-.sn-shit::before,
-.sn-shit::after {
+.jdsn-shit::before,
+.jdsn-shit::after {
     content: '💩';
 }
