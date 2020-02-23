@@ -13,7 +13,7 @@ The WordPress plugin for party animals.
 1. put the folder into the /wp-admin/plugins/ directory
 2. Activate the plugin
 3. Open a beer
-4. Surround any text you want with these shortcodes: [party], [rainbown], [shit], [boom]
+4. Surround any text you want with these shortcodes: [party], [rainbown], [fire], [shit], [boom]
 5. Party!!~!
 
 == Frequently Asked Questions ==
