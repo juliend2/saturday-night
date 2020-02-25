@@ -2,6 +2,7 @@
 Contributors: jdesrosiers
 Tags: fun,text
 Requires at least: 4.0.0
+Stable tag: trunk
 Tested up to: 5.3.2
 Requires PHP: 7.0.0
 License: WTFPL
@@ -19,7 +20,7 @@ The WordPress plugin for party animals.
 == Frequently Asked Questions ==
 1. Is this ready for production?
 
-Y-Yearh of course! What, you don\'t trust me!?!?!
+Y-Yearh of course! What, you don't trust me!?!?!
 
 == Screenshots ==
 1. See it in action
